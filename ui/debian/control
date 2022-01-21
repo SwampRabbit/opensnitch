@@ -2,7 +2,7 @@ Source: opensnitch-ui
 Section: net
 Priority: optional
 Maintainer: Gustavo Iñiguez Goia <gooffy1@gmail.com>
-Uploaders: Gustavo Iniguez Goya <gooffy@gmail.com>,
+Uploaders: Gustavo Iniguez Goya <gooffy@gmail.com>
 Build-Depends: debhelper (>= 7.4.3), dh-python, python3-setuptools, pyqt5-dev-tools, python3-all 
 Standards-Version: 3.9.1
 Homepage: https://github.com/evilsocket/opensnitch
