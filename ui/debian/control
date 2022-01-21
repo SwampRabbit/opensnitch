@@ -1,16 +1,14 @@
 Source: opensnitch-ui
-Maintainer: Gustavo Iñiguez Goia <gooffy1@gmail.com>
-Uploaders:
- Gustavo Iniguez Goya <gooffy@gmail.com>,
+Section: net
 Priority: optional
-Homepage: https://github.com/evilsocket/opensnitch
-Build-Depends: python3-setuptools, pyqt5-dev-tools, python3-all, debhelper (>= 7.4.3), dh-python
+Maintainer: Gustavo Iñiguez Goia <gooffy1@gmail.com>
+Uploaders: Gustavo Iniguez Goya <gooffy@gmail.com>,
+Build-Depends: debhelper (>= 7.4.3), dh-python, python3-setuptools, pyqt5-dev-tools, python3-all 
 Standards-Version: 3.9.1
-
+Homepage: https://github.com/evilsocket/opensnitch
 
 Package: python3-opensnitch-ui
 Architecture: all
-Section: net
 Depends:
  debconf, libqt5sql5-sqlite, python3:any, python3-setuptools, python3-six, python3-pyqt5,
  python3-pyqt5.qtsql, python3-pyinotify, python3-notify2, python3-pip, whiptail | dialog
